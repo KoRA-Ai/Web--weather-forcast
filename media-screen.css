@@ -1,0 +1,30 @@
+@media screen and (min-width: 900px)  {
+    .nav {
+        margin: 0 120px 0;
+
+    }
+}
+
+@media screen and (max-width: 605px)  {
+    .nav {
+        display: block;
+    }
+
+    .logo a {
+        justify-content: center;
+    }
+
+    .comp-nav-link a {
+margin: 0;
+padding: 0px;
+
+    }
+
+    .comp-nav-link {
+        padding: 10px;
+        display: flex;
+
+    }
+}
+
+ 
