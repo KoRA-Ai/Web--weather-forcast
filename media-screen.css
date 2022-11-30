@@ -1,12 +1,9 @@
-@media screen and (min-width: 900px)  {
-    .nav {
-        margin: 0 120px 0;
+@media screen and (max-width: 791px) {
 
-    }
-}
-
-@media screen and (max-width: 605px)  {
+    /* header */
     .nav {
+        margin: 0 10px 0;
+
         display: block;
     }
 
@@ -15,8 +12,8 @@
     }
 
     .comp-nav-link a {
-margin: 0;
-padding: 0px;
+        margin: 0;
+        padding: 0px;
 
     }
 
@@ -25,6 +22,66 @@ padding: 0px;
         display: flex;
 
     }
-}
 
- 
+    /* table */
+    .box {
+        margin: 15px;
+        padding: 10px;
+
+    }
+
+    footer {
+        margin: 0;
+        text-align: left;
+    }
+
+    .location {
+        text-align: start;
+        margin: 10px;
+
+    }
+
+    .grid div {
+        margin: auto;
+
+    }
+
+    .table {
+        display: block;
+    }
+
+    .grid {
+        display: flex;
+    }
+
+    .lc-all {
+        display: block;
+
+    }
+
+    .lc-each div {
+        margin: auto;
+    }
+
+    .lc-location {
+        text-align: center;
+        padding: 10px 0 30px;
+    }
+
+    .lc-img {
+        width: 80%;
+    }
+
+    .lc-location {
+        font-size: 20pt;
+    }
+
+    .sections {
+        display: block;
+    }
+    footer div{
+        margin: 10px;
+    }
+    
+
+}
