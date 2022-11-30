@@ -1,29 +1,15 @@
-/*
-div {
-    border: 2pt solid red;
-}
-
-.banner {
-    border: 2pt solid cyan;
-}
-*/
-
-
-
-
-
-
 /*formal*/
 body {
     min-width: 320px;
     margin: 0;
-    background-color: #14213D;
+    background-color: #1A1F38;
     color: white;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* header */
 .nav {
-    margin: 0 10px 0;
+    margin: 0 120px 0;
     display: flex;
     padding: 10px;
     align-items: center;
@@ -62,7 +48,84 @@ label[for="sub-title"] {
     padding: 10px;
 }
 
-#banner{
+#banner {
     width: 100%;
-    height:100px;
+    height: 100px;
+}
+
+/* table */
+.box {
+    margin: 0 70px 20px;
+    padding: 0 80px 0;
+}
+
+.grid {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.grid div {
+    margin: auto;
+    padding: 10px 15px 10px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+#grid1 {
+    background-color: #353B5D;
+}
+
+#grid2 {
+    background-color: #484F73;
+}
+
+.whether-icon img {
+    width: 100%;
+}
+
+/* after live cam  */
+ul {
+    margin: 10px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #353B5D;
+    margin: 0;
+}
+
+footer div {
+    padding: 10px;
+    margin: 0 120px 0;
+
+}
+
+.lc-all {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lc-each {
+    padding: 10px;
+}
+
+.lc-each img {
+    width: 100%;
+
+}
+
+.lc-location {
+    padding-top: 5px;
 }
